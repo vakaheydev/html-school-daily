@@ -1,0 +1,72 @@
+.graph {
+    display: flex;
+    justify-content: center;
+}
+
+.digits {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.rectangle {
+    height: 300px;
+    width: 50px;
+    background-color: white;
+    margin-right: 100px;
+    border: 5px solid black;
+    transition: filter 0.5s;
+    position: relative;
+}
+
+.rectangle:hover {
+    filter: brightness(65%)
+}
+
+.rectangle:nth-child(4n) {
+    margin-right: 0;
+}
+
+.green {
+    height: 120px; 
+    top: 180px;
+    background-color: green;
+}
+
+.greenyellow {
+    height: 250px;
+    top: 50px;
+    background-color: greenyellow;
+}
+
+.orange {
+    height: 70px;
+    top: 230px;
+    background-color: orange;
+}
+
+.red {
+    height: 10px;
+    top: 290px;
+    background-color: red;
+}
+
+#fifth {
+    position: absolute;
+    left: 33%;
+}
+
+#fourth {
+    position: absolute;
+    left: 44%;
+}
+#third {
+    position: absolute;
+    left: 55%;
+}
+
+#second {
+    position: absolute;
+    left: 66%;
+}

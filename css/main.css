@@ -1,0 +1,106 @@
+.greeting {
+    text-align: center;
+    font-size: 24px;
+}
+
+.activity {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.ring-image {
+    width: 90px;
+    position: relative;
+    left: 450%;
+    transition: filter 0.5s;
+    top: 20px;
+}
+
+.ring-ref {
+    font-size: 72px;
+    text-decoration: none;
+    position: relative;
+    left: 488%;
+    top: 30px;  
+    padding: 10px 1px;
+
+    z-index: 1;
+    
+    opacity: 0%;
+}
+
+.notifications-square {
+    border-radius: 30%;
+    position: relative;
+    left: 475%;
+    top: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.ring-ref:hover + .ring-image {
+    filter:opacity(40%);
+}
+
+.icons-container, .ring-container, .profile-container {
+    display: flex;
+}
+
+.profile-image {
+    width: 100px;
+    position: relative;
+    top: 15px;
+    left: 30%;
+    transition: filter 0.5s;
+}
+
+
+.profile-ref {
+    font-size: 72px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;  
+    left: 80%;
+    padding: 10px 1px;
+
+    z-index: 1;
+    
+    opacity: 0%;
+}
+
+.profile-ref:hover + .profile-image {
+    filter: opacity(40%);
+}
+
+
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lesson {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(210, 205, 205);
+    font-size: 36px;
+    padding: 2px 5px;
+    transition: filter 0.5s;
+    margin-bottom: 20px;
+}
+
+.lesson:hover {
+    filter: brightness(70%)
+}
+
+.lesson .link {
+    text-decoration: none;
+    color: black;
+}

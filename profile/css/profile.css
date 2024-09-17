@@ -1,0 +1,28 @@
+.text {
+    text-align: center;
+    font-size: 32px;
+}
+
+.blocks {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+    height: 80px;
+    background-color: rgb(210, 205, 205);
+    color: black;
+    font-size: 36px;
+    transition: filter 0.5s;
+}
+
+.block:hover {
+    filter: opacity(40%);
+}

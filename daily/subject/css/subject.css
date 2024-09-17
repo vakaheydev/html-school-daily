@@ -1,0 +1,52 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10%;
+    color: white;
+    margin-left: 100px;
+    position: relative;
+    font-size: 36px;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(80, 81, 81);
+}
+
+.buttons {
+    display: flex;
+}
+
+#first {
+    left: 300px;
+    width: 270px;
+}
+
+#second {
+    left: 350px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.dz-container{
+    display: flex;
+    justify-content: center;
+}
+
+.dz {
+    padding: 1px 10px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(59, 56, 56);
+    margin-bottom: 30px;
+}

@@ -1,0 +1,40 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(154, 61, 61);
+    border-radius: 10%;
+    color: white;
+    position: relative;
+    font-size: 36px;
+    transition: background-color 0.5s;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: rgb(88, 36, 36);
+    border: 1px solid white;
+}
+
+h1 {
+    font-weight: 1;
+}
+
+.flex-button a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    background-color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
